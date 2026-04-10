@@ -8,7 +8,7 @@ public class CuentaBancaria {
     public CuentaBancaria(double saldoInicial) {
         this.saldo = saldoInicial;
     }
-
+        // cambio en GH
     public void depositar(double cantidad) {
         if (cantidad > 0) {
             saldo += cantidad;
