@@ -11,7 +11,7 @@ public class CuentaBancaria {
         // cambio en GH
     public void depositar(double cantidad) {
         if (cantidad > 0) {
-            saldo += cantidad;
+            saldo += cantidad; // Cambio en IJ para conflicto
         }
     }
 
